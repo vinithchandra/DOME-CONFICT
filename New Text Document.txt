@@ -15,6 +15,7 @@ while True:
     try:
 
          user =int(input("enter the number"))
+         ran=random.randint(10,100)
          win=windom.windint(10,100)
          print(win)
          if user==win:
