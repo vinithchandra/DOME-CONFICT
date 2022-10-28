@@ -1,3 +1,4 @@
+import random
 import windom
 class valuetoosmall(Exception):
     def display(self):
