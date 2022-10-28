@@ -1,0 +1,20 @@
+diff a/New Text Document.txt b/New Text Document.txt	(rejected hunks)
+@@ -14,13 +14,13 @@
+     try:
+ 
+          user =int(input("enter the number"))
+-         ran=random.randint(10,100)
+-         print(ran)
+-         if user==ran:
++         win=windom.windint(10,100)
++         print(win)
++         if user==win:
+           break
+-         if user< ran :
++         if user< win :
+            raise valuetoosmall
+-         if user >ran:
++         if user >win:
+             raise valuetoolarge
+ 
+     except valuetoosmall as s:
