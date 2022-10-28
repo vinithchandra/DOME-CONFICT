@@ -1,4 +1,4 @@
-import random
+import windom
 class valuetoosmall(Exception):
     def display(self):
         print("input value is small")
@@ -14,13 +14,13 @@ while True:
     try:
 
          user =int(input("enter the number"))
-         ran=random.randint(10,100)
-         print(ran)
-         if user==ran:
+         win=windom.windint(10,100)
+         print(win)
+         if user==win:
           break
-         if user< ran :
+         if user< win :
            raise valuetoosmall
-         if user >ran:
+         if user >win:
             raise valuetoolarge
 
     except valuetoosmall as s:
